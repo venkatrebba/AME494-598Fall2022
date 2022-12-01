@@ -13,7 +13,7 @@ void setup()
     ttgo->tft->fillScreen(TFT_WHITE);
     ttgo->tft->setTextColor(TFT_BLACK, TFT_WHITE);
     ttgo->tft->setTextFont(4);
-    ttgo->tft->drawString("Venkat Rebba",  5, 10);
+    ttgo->tft->drawString("Venkat Rebba",  40, 90);
 }
 
 void loop()
