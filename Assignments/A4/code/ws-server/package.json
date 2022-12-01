@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^2.2.36",
+    "mongoskin": "^2.1.0",
+    "ws": "^2.3.1"
+  }
+}
