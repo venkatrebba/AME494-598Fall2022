@@ -5,7 +5,7 @@ This project is to alert home owners/registered users when an unknown person ent
 ## Approach:
 The system reads camera feed continously and analyzes every alternate frame. If any faces are detected in the frame, then it compares them against the registered user data (stored in MongoDB). If the faces are new, then it uploads the image to GCS. The GCS has a put trigger that invokes a cloud function that sends an automatic message to a Discord channel.
 
-System Overview:
-!(["System overview"] System Overview.png)
+## System Overview:
+![Screenshot](system_overview.png)
 
 
