@@ -28,11 +28,11 @@ def hello_gcs(data, context):
      @client.event
      async def on_ready():
           print('We have logged in as {0.user}'.format(client))
-          channel = client.get_channel(1038588980616253450)
+          channel = client.get_channel("channel_id")
           await channel.send("Hello Humans , this is your new security Agent from second program")
           await channel.send(file=discord.File(file_path))
           exit()
 
-     client.run('MTAzODYwNDI3OTUxNjI1NDI0OQ.GPliEH.Fso0EbdkNvQSrfSGvtL-dCopgaON5E-5fjg8Jc')
+     client.run('token')
      print('Finished success')
 
