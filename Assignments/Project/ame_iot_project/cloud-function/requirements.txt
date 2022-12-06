@@ -1,0 +1,4 @@
+# Function dependencies
+requests==2.27.1
+discord
+google-cloud-storage>=1.6.0
