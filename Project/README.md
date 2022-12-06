@@ -8,4 +8,5 @@ The system reads camera feed continously and analyzes every alternate frame. If 
 ## System Overview:
 ![Screenshot](system_overview.png)
 
-
+## Result
+![Discord Messages](https://user-images.githubusercontent.com/32699857/205789421-78d820ae-6ea0-4b22-8640-603d39084b4c.png)
